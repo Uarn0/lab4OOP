@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 252,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "lab4\\MainWindow.xaml",
+              "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml",
+              "RelativeToolTip": "lab4\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-19T17:11:45.42Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +44,7 @@
               "RelativeDocumentMoniker": "lab4\\MainWindow.xaml.cs",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml.cs",
               "RelativeToolTip": "lab4\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T17:11:44.539Z",
               "EditorCaption": ""
