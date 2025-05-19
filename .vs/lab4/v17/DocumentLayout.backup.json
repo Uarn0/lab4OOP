@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\vsprog\\lab4OOP\\lab4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 252,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,19 +34,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Student.cs",
+              "RelativeDocumentMoniker": "lab4\\Student.cs",
+              "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Student.cs",
+              "RelativeToolTip": "lab4\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T18:43:59.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Client.cs",
+              "RelativeDocumentMoniker": "lab4\\Client.cs",
+              "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Client.cs",
+              "RelativeToolTip": "lab4\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:46:11.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml",
               "RelativeDocumentMoniker": "lab4\\MainWindow.xaml",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml",
               "RelativeToolTip": "lab4\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-19T17:11:45.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T17:11:45.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "lab4\\MainWindow.xaml.cs",
@@ -46,8 +79,7 @@
               "RelativeToolTip": "lab4\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T17:11:44.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T17:11:44.539Z"
             }
           ]
         }
