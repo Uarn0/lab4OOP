@@ -1,0 +1,55 @@
+﻿<Window x:Class="lab4.ResearchEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit Research" Height="400" Width="600">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Client info -->
+        <StackPanel Orientation="Vertical" Grid.Row="0" Margin="0,0,0,10">
+            <TextBlock Text="Client Information" FontWeight="Bold"/>
+            
+            <TextBlock Text="Organization Name"/>
+            <TextBox x:Name="OrganizationNameBox" Margin="0,5"/>
+            
+            <TextBlock Text="Research Topic"/>
+            <TextBox x:Name="ResearchTopicBox" Margin="0,5"/>
+
+            <TextBlock Text="Contract Value"/>
+            <TextBox x:Name="ContractValueBox" Margin="0,5"/>
+        </StackPanel>
+
+        <!-- Date -->
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,0,0,10">
+            <TextBlock Text="Contract Date:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <DatePicker x:Name="ContractDatePicker" Width="200"/>
+        </StackPanel>
+
+        <!-- Publications -->
+        <GroupBox Header="Publications" Grid.Row="2">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <ListBox x:Name="PublicationsListBox" Grid.Row="0" DisplayMemberPath="ToString"/>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                    <Button x:Name="AddPublicationButton" Content="Add" Width="80" Margin="5" Click="AddPublicationButton_Click"/>
+                    <Button x:Name="EditPublicationButton" Content="Edit" Width="80" Margin="5" Click="EditPublicationButton_Click"/>
+                    <Button x:Name="DeletePublicationButton" Content="Delete" Width="80" Margin="5" Click="DeletePublicationButton_Click"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+
+        <!-- OK/Cancel -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button Content="OK" Width="80" Margin="5" IsDefault="True" Click="OKButton_Click"/>
+            <Button Content="Cancel" Width="80" Margin="5" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>
