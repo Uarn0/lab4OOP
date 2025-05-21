@@ -21,7 +21,8 @@ namespace lab4
 
         public override string ToString()
         {
-            return $"{Author}: {AchievementType}";
+            return $"{Author?.LastName} {Author?.FirstName} ({Author?.EnrollmentYear}): {AchievementType}";
         }
+
     }
 }

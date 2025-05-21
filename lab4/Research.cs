@@ -19,6 +19,13 @@ namespace lab4
             Client = client;
             ContractDate = contractDate;
         }
+        public string ToShortString
+        {
+            get
+            {
+                return $"{Client?.ResearchTopic ?? "No topic"} | {Publications?.Count ?? 0} pubs.";
+            }
+        }
 
         public void AddPublication(Publication publication)
         {
@@ -31,9 +38,6 @@ namespace lab4
             return $"{Client?.ResearchTopic ?? "Untitled"} – {Publications.Count} publications";
         }
 
-        public string ToShortString()
-        {
-            return $"{Client?.ResearchTopic} | {Publications.Count} pubs.";
-        }
+        
     }
 }

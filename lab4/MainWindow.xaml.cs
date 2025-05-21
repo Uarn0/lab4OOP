@@ -26,32 +26,36 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    // Оновлення списку досліджень на формі
     private void RefreshList()
     {
         ResearchListBox.ItemsSource = null;
         ResearchListBox.ItemsSource = researches;
     }
 
-    // Додати нове дослідження (поки що - заглушка)
+
     private void AddButton_Click(object sender, RoutedEventArgs e)
     {
-        // ТУТ поки що просто додаємо тестовий Research для перевірки
-        // Далі заміниш на відкриття форми для вводу (ResearchEditor)
-        var testResearch = new Research
+        var editor = new ResearchEditor();
+        if (editor.ShowDialog() == true)
         {
-            Client = new Client("Test Org", "Test Topic", 10000),
-            ContractDate = DateTime.Today
-        };
-        researches.Add(testResearch);
-        RefreshList();
+            researches.Add(editor.Research);
+            RefreshList();
+        }
     }
 
-    // Edit і Delete також можна поки що залишити порожніми
+
     private void EditButton_Click(object sender, RoutedEventArgs e)
     {
-        // TODO: Реалізуємо після ResearchEditor
+        if (ResearchListBox.SelectedItem is Research selected)
+        {
+            var editor = new ResearchEditor(selected);
+            if (editor.ShowDialog() == true)
+            {
+                RefreshList();
+            }
+        }
     }
+
 
     private void DeleteButton_Click(object sender, RoutedEventArgs e)
     {

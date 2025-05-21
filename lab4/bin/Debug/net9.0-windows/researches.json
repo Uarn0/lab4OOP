@@ -1,0 +1,40 @@
+[
+  {
+    "Client": {
+      "OrganizationName": "\u0444\u0456\u0432\u0444\u0456\u0432\u0444",
+      "ResearchTopic": "\u0444\u0456\u0432",
+      "ContractValue": 2
+    },
+    "ContractDate": "2025-05-21T00:00:00+03:00",
+    "Publications": [
+      {
+        "Author": {
+          "FirstName": "\u0444\u0456\u0432\u0444",
+          "LastName": "\u0444\u0456\u0444\u0456\u0444\u0456\u0432\u0432\u0444\u0456\u0456\u0432\u0444",
+          "EnrollmentYear": 2
+        },
+        "AchievementType": 0
+      }
+    ],
+    "ToShortString": "\u0444\u0456\u0432 | 1 pubs."
+  },
+  {
+    "Client": {
+      "OrganizationName": "safasdfas",
+      "ResearchTopic": "asdfasdf",
+      "ContractValue": 2
+    },
+    "ContractDate": "2025-05-21T00:00:00+03:00",
+    "Publications": [
+      {
+        "Author": {
+          "FirstName": "wwqe",
+          "LastName": "asdas",
+          "EnrollmentYear": 1
+        },
+        "AchievementType": 2
+      }
+    ],
+    "ToShortString": "asdfasdf | 1 pubs."
+  }
+]

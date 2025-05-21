@@ -18,3 +18,7 @@ C:\vsprog\lab4OOP\lab4\lab4\obj\Debug\net9.0-windows\refint\lab4.dll
 C:\vsprog\lab4OOP\lab4\lab4\obj\Debug\net9.0-windows\lab4.pdb
 C:\vsprog\lab4OOP\lab4\lab4\obj\Debug\net9.0-windows\lab4.genruntimeconfig.cache
 C:\vsprog\lab4OOP\lab4\lab4\obj\Debug\net9.0-windows\ref\lab4.dll
+C:\vsprog\lab4OOP\lab4\lab4\obj\Debug\net9.0-windows\ResearchEditor.baml
+C:\vsprog\lab4OOP\lab4\lab4\obj\Debug\net9.0-windows\ResearchEditor.g.cs
+C:\vsprog\lab4OOP\lab4\lab4\obj\Debug\net9.0-windows\PublicationEditor.baml
+C:\vsprog\lab4OOP\lab4\lab4\obj\Debug\net9.0-windows\PublicationEditor.g.cs
