@@ -35,9 +35,14 @@ namespace lab4
 
         public override string ToString()
         {
-            return $"{Client?.ResearchTopic ?? "Untitled"} – {Publications.Count} publications";
+            return
+                $"Організація: {Client?.OrganizationName ?? "—"}\n" +
+                $"Тема: {Client?.ResearchTopic ?? "—"}\n" +
+                $"Вартість: {Client?.ContractValue ?? 0} грн\n" +
+                $"Дата підписання: {ContractDate:dd.MM.yyyy}\n" +
+                $"Публікацій: {Publications?.Count ?? 0}\n" +
+                $"{string.Join("\n", Publications)}";
         }
 
-        
     }
 }

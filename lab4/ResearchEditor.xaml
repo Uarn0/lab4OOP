@@ -37,7 +37,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <ListBox x:Name="PublicationsListBox" DisplayMemberPath="Author.FirstName"/>
+                <ListBox x:Name="PublicationsListBox" />
 
                 <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
                     <Button x:Name="AddPublicationButton" Content="Add" Width="80" Margin="5" Click="AddPublicationButton_Click"/>

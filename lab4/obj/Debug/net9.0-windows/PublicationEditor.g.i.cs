@@ -84,7 +84,7 @@ namespace lab4 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/lab4;component/publicationeditor.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/lab4;V1.0.0.0;component/publicationeditor.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PublicationEditor.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
