@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -24,13 +25,27 @@ namespace lab4
         public PublicationEditor()
         {
             InitializeComponent();
-
-            // Заповнюємо ComboBox всіма варіантами з ResearchAchievement
             AchievementBox.ItemsSource = Enum.GetValues(typeof(ResearchAchievement));
 
-            // За замовчуванням вибраний перший тип досягнення
-            AchievementBox.SelectedIndex = 0;
+            this.Closing += PublicationEditor_Closing;
         }
+        private void PublicationEditor_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (DialogResult != true)
+            {
+                var result = MessageBox.Show(
+                    "Вийти без збереження публікації?",
+                    "Підтвердження",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Warning);
+
+                if (result == MessageBoxResult.No)
+                {
+                    e.Cancel = true;
+                }
+            }
+        }
+
 
         // Конструктор для редагування існуючої публікації
         public PublicationEditor(Publication publicationToEdit) : this()
@@ -51,7 +66,16 @@ namespace lab4
             {
                 string firstName = FirstNameBox.Text.Trim();
                 string lastName = LastNameBox.Text.Trim();
-                int year = int.Parse(EnrollmentYearBox.Text.Trim());
+
+                if (!Regex.IsMatch(firstName, @"^[A-ZА-ЯІЇЄ][a-zа-яіїє']+$"))
+                    throw new Exception("Ім’я некоректне.");
+
+                if (!Regex.IsMatch(lastName, @"^[A-ZА-ЯІЇЄ][a-zа-яіїє']+$"))
+                    throw new Exception("Прізвище некоректне.");
+
+                if (!int.TryParse(EnrollmentYearBox.Text.Trim(), out int year) || year < 2000 || year > DateTime.Now.Year)
+                    throw new Exception("Рік зарахування некоректний.");
+
                 var achievement = (ResearchAchievement)AchievementBox.SelectedItem;
 
                 var student = new Student(firstName, lastName, year);
@@ -61,8 +85,9 @@ namespace lab4
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message);
+                MessageBox.Show("Помилка: " + ex.Message);
             }
         }
+
     }
 }

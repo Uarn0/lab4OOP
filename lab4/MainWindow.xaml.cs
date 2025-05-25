@@ -1,37 +1,22 @@
-﻿using System.IO;
-using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
 using System.Text.Json;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace lab4;
-
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
 public partial class MainWindow : Window
 {
-    private List<Research> researches = new();
+    private ObservableCollection<Research> researches = new();
     private const string FilePath = "researches.json";
 
     public MainWindow()
     {
         InitializeComponent();
-    }
-
-    private void RefreshList()
-    {
-        ResearchListBox.ItemsSource = null;
         ResearchListBox.ItemsSource = researches;
     }
-
 
     private void AddButton_Click(object sender, RoutedEventArgs e)
     {
@@ -39,10 +24,8 @@ public partial class MainWindow : Window
         if (editor.ShowDialog() == true)
         {
             researches.Add(editor.Research);
-            RefreshList();
         }
     }
-
 
     private void EditButton_Click(object sender, RoutedEventArgs e)
     {
@@ -51,27 +34,26 @@ public partial class MainWindow : Window
             var editor = new ResearchEditor(selected);
             if (editor.ShowDialog() == true)
             {
-                RefreshList();
+                // Двосторонній зв'язок: зміни вже в колекції
+                // Якщо треба оновити відображення окремих властивостей —
+                // можна використати INotifyPropertyChanged у Research
             }
         }
     }
-
 
     private void DeleteButton_Click(object sender, RoutedEventArgs e)
     {
         if (ResearchListBox.SelectedItem is Research selected)
         {
             researches.Remove(selected);
-            RefreshList();
         }
     }
 
-    // Збереження у JSON
     private void SaveButton_Click(object sender, RoutedEventArgs e)
     {
         try
         {
-            var json = JsonSerializer.Serialize(researches, new JsonSerializerOptions { WriteIndented = true });
+            var json = JsonSerializer.Serialize(researches.ToList(), new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(FilePath, json);
             MessageBox.Show("Saved successfully.");
         }
@@ -81,7 +63,6 @@ public partial class MainWindow : Window
         }
     }
 
-    // Завантаження з JSON
     private void LoadButton_Click(object sender, RoutedEventArgs e)
     {
         try
@@ -89,8 +70,9 @@ public partial class MainWindow : Window
             if (File.Exists(FilePath))
             {
                 var json = File.ReadAllText(FilePath);
-                researches = JsonSerializer.Deserialize<List<Research>>(json) ?? new();
-                RefreshList();
+                var loaded = JsonSerializer.Deserialize<List<Research>>(json) ?? new List<Research>();
+                researches = new ObservableCollection<Research>(loaded);
+                ResearchListBox.ItemsSource = researches;
                 MessageBox.Show("Loaded successfully.");
             }
         }
@@ -100,3 +82,4 @@ public partial class MainWindow : Window
         }
     }
 }
+

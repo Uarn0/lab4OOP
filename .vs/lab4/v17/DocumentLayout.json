@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\vsprog\\lab4OOP\\lab4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\publication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\publication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\research.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\research.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\publicationeditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\publicationeditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\researchachievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\researchachievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\publicationeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\publicationeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\researcheditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\researcheditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\research.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\research.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\publication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\publication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\researcheditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\researcheditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\publicationeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\publicationeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\researchachievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\researchachievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|solutionrelative:lab4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0D18C5D-EE2A-4F1D-88B6-F4B925DF409D}|lab4\\lab4.csproj|c:\\vsprog\\lab4oop\\lab4\\lab4\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,7 +61,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 252,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,16 +69,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Publication.cs",
               "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Publication.cs",
               "RelativeDocumentMoniker": "lab4\\Publication.cs",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Publication.cs",
               "RelativeToolTip": "lab4\\Publication.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:20:00.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T12:20:00.484Z"
             },
             {
               "$type": "Document",
@@ -89,18 +88,17 @@
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\PublicationEditor.xaml",
               "RelativeToolTip": "lab4\\PublicationEditor.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T13:13:35.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T13:13:35.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "PublicationEditor.xaml.cs",
               "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\PublicationEditor.xaml.cs",
               "RelativeDocumentMoniker": "lab4\\PublicationEditor.xaml.cs",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\PublicationEditor.xaml.cs",
               "RelativeToolTip": "lab4\\PublicationEditor.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAIwDAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwFcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T13:19:50.213Z",
               "EditorCaption": ""
@@ -113,99 +111,93 @@
               "RelativeDocumentMoniker": "lab4\\Research.cs",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Research.cs",
               "RelativeToolTip": "lab4\\Research.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwCsAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:20:57.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T12:20:57.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResearchAchievement.cs",
-              "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchAchievement.cs",
-              "RelativeDocumentMoniker": "lab4\\ResearchAchievement.cs",
-              "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchAchievement.cs",
-              "RelativeToolTip": "lab4\\ResearchAchievement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:19:09.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "ResearchEditor.xaml",
               "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchEditor.xaml",
               "RelativeDocumentMoniker": "lab4\\ResearchEditor.xaml",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchEditor.xaml",
               "RelativeToolTip": "lab4\\ResearchEditor.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-21T12:34:51.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T12:34:51.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResearchEditor.xaml.cs",
-              "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchEditor.xaml.cs",
-              "RelativeDocumentMoniker": "lab4\\ResearchEditor.xaml.cs",
-              "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchEditor.xaml.cs",
-              "RelativeToolTip": "lab4\\ResearchEditor.xaml.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAqwDkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:45:00.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Student.cs",
               "RelativeDocumentMoniker": "lab4\\Student.cs",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Student.cs",
               "RelativeToolTip": "lab4\\Student.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:43:59.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T18:43:59.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "lab4\\MainWindow.xaml.cs",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml.cs",
               "RelativeToolTip": "lab4\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAkwD8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T17:11:44.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml",
               "RelativeDocumentMoniker": "lab4\\MainWindow.xaml",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\MainWindow.xaml",
               "RelativeToolTip": "lab4\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-19T17:11:45.42Z",
+              "WhenOpened": "2025-05-19T17:11:45.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResearchEditor.xaml.cs",
+              "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchEditor.xaml.cs",
+              "RelativeDocumentMoniker": "lab4\\ResearchEditor.xaml.cs",
+              "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchEditor.xaml.cs",
+              "RelativeToolTip": "lab4\\ResearchEditor.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwD4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:45:00.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "ResearchAchievement.cs",
+              "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchAchievement.cs",
+              "RelativeDocumentMoniker": "lab4\\ResearchAchievement.cs",
+              "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\ResearchAchievement.cs",
+              "RelativeToolTip": "lab4\\ResearchAchievement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:19:09.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Client.cs",
               "RelativeDocumentMoniker": "lab4\\Client.cs",
               "ToolTip": "C:\\vsprog\\lab4OOP\\lab4\\lab4\\Client.cs",
               "RelativeToolTip": "lab4\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T17:46:11.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T17:46:11.707Z"
             },
             {
               "$type": "Document",

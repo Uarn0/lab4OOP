@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -24,21 +25,42 @@ namespace lab4
         public ResearchEditor()
         {
             InitializeComponent();
+
             ContractDatePicker.SelectedDate = DateTime.Today;
 
             PublicationsListBox.ItemsSource = Research.Publications;
+
+            this.Closing += ResearchEditor_Closing;
         }
+
 
         public ResearchEditor(Research researchToEdit) : this()
         {
             if (researchToEdit != null)
             {
                 Research = researchToEdit;
+
                 OrganizationNameBox.Text = Research.Client?.OrganizationName;
                 ResearchTopicBox.Text = Research.Client?.ResearchTopic;
                 ContractValueBox.Text = Research.Client?.ContractValue.ToString();
                 ContractDatePicker.SelectedDate = Research.ContractDate;
                 PublicationsListBox.ItemsSource = Research.Publications;
+            }
+        }
+        private void ResearchEditor_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (DialogResult != true)
+            {
+                var result = MessageBox.Show(
+                    "Вийти без збереження змін?",
+                    "Підтвердження",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Warning);
+
+                if (result == MessageBoxResult.No)
+                {
+                    e.Cancel = true; 
+                }
             }
         }
 
@@ -48,7 +70,16 @@ namespace lab4
             {
                 string org = OrganizationNameBox.Text.Trim();
                 string topic = ResearchTopicBox.Text.Trim();
-                int value = int.Parse(ContractValueBox.Text.Trim());
+
+                if (!Regex.IsMatch(org, @"^[A-ZА-ЯІЇЄ][\w\s\.\-&]{2,}$"))
+                    throw new Exception("Назва організації некоректна.");
+
+                if (!Regex.IsMatch(topic, @"^[\w\s\.\,\-()]{3,}$"))
+                    throw new Exception("Тема дослідження некоректна.");
+
+                if (!int.TryParse(ContractValueBox.Text.Trim(), out int value) || value <= 0)
+                    throw new Exception("Сума контракту має бути додатнім числом.");
+
                 DateTime contractDate = ContractDatePicker.SelectedDate ?? DateTime.Today;
 
                 Research.Client = new Client(org, topic, value);
@@ -58,7 +89,7 @@ namespace lab4
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message);
+                MessageBox.Show("Помилка: " + ex.Message);
             }
         }
 
