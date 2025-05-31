@@ -20,6 +20,15 @@ namespace lab4
             LastName = lastName;
             EnrollmentYear = enrollmentYear;
         }
+        public Student Clone()
+        {
+            return new Student
+            {
+                FirstName = this.FirstName,
+                LastName = this.LastName,
+                EnrollmentYear = this.EnrollmentYear
+            };
+        }
 
         public override string ToString()
         {

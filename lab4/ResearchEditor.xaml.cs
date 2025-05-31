@@ -39,14 +39,10 @@ namespace lab4
             if (researchToEdit != null)
             {
                 Research = researchToEdit;
-
-                OrganizationNameBox.Text = Research.Client?.OrganizationName;
-                ResearchTopicBox.Text = Research.Client?.ResearchTopic;
-                ContractValueBox.Text = Research.Client?.ContractValue.ToString();
-                ContractDatePicker.SelectedDate = Research.ContractDate;
-                PublicationsListBox.ItemsSource = Research.Publications;
+                this.DataContext = Research; // <-- ГОЛОВНЕ!
             }
         }
+
         private void ResearchEditor_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             if (DialogResult != true)
@@ -62,6 +58,7 @@ namespace lab4
                     e.Cancel = true; 
                 }
             }
+
         }
 
         private void OKButton_Click(object sender, RoutedEventArgs e)

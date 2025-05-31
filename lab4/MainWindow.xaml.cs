@@ -29,14 +29,26 @@ public partial class MainWindow : Window
 
     private void EditButton_Click(object sender, RoutedEventArgs e)
     {
-        if (ResearchListBox.SelectedItem is Research selected)
+
+        /*if (ResearchListBox.SelectedItem is Research selected)
         {
             var editor = new ResearchEditor(selected);
             if (editor.ShowDialog() == true)
             {
-                // Двосторонній зв'язок: зміни вже в колекції
-                // Якщо треба оновити відображення окремих властивостей —
-                // можна використати INotifyPropertyChanged у Research
+                ResearchListBox.Items.Refresh();
+            }
+        }*/
+        if (ResearchListBox.SelectedItem is Research selected)
+        {
+            var researchCopy = selected.Clone();
+
+            var editor = new ResearchEditor(researchCopy);
+
+            if (editor.ShowDialog() == true)
+            {
+                int index = researches.IndexOf(selected);
+                if (index >= 0)
+                    researches[index] = researchCopy;
             }
         }
     }

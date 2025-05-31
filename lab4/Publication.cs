@@ -18,6 +18,14 @@ namespace lab4
             Author = author;
             AchievementType = achievementType;
         }
+        public Publication Clone()
+        {
+            return new Publication
+            {
+                Author = this.Author?.Clone(),
+                AchievementType = this.AchievementType
+            };
+        }
 
         public override string ToString()
         {

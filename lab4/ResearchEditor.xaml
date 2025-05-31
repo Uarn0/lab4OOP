@@ -15,19 +15,19 @@
             <TextBlock Text="Client Information" FontWeight="Bold"/>
             
             <TextBlock Text="Organization Name"/>
-            <TextBox x:Name="OrganizationNameBox" Margin="0,5"/>
+            <TextBox x:Name="OrganizationNameBox" Margin="0,5" Text="{Binding Client.OrganizationName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
             
             <TextBlock Text="Research Topic"/>
-            <TextBox x:Name="ResearchTopicBox" Margin="0,5"/>
+            <TextBox x:Name="ResearchTopicBox" Margin="0,5" Text="{Binding Client.ResearchTopic, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
             <TextBlock Text="Contract Value"/>
-            <TextBox x:Name="ContractValueBox" Margin="0,5"/>
+            <TextBox x:Name="ContractValueBox" Margin="0,5" Text="{Binding Client.ContractValue, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
         </StackPanel>
 
         <!-- Date -->
         <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,0,0,10">
             <TextBlock Text="Contract Date:" VerticalAlignment="Center" Margin="0,0,10,0"/>
-            <DatePicker x:Name="ContractDatePicker" Width="200"/>
+            <DatePicker x:Name="ContractDatePicker" SelectedDate="{Binding ContractDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="200"/>
         </StackPanel>
 
         <!-- Publications -->
@@ -37,7 +37,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <ListBox x:Name="PublicationsListBox" />
+                <ListBox x:Name="PublicationsListBox" ItemsSource="{Binding Publications}"/>
 
                 <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
                     <Button x:Name="AddPublicationButton" Content="Add" Width="80" Margin="5" Click="AddPublicationButton_Click"/>

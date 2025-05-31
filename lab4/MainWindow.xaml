@@ -11,8 +11,8 @@
         </Grid.RowDefinitions>
 
         <TextBlock Text="Research List" FontSize="18" FontWeight="Bold" />
-        
-        <ListBox x:Name="ResearchListBox" Grid.Row="1" DisplayMemberPath="ToShortString" />
+
+        <ListBox x:Name="ResearchListBox" ItemsSource="{Binding researches}" Grid.Row="1" DisplayMemberPath="ToShortString" />
 
 
 
